@@ -72,6 +72,9 @@ div.header div.headwrap div.userbox strong {
     display: block;
     float: left;
 }
+.navi {
+    padding-top: 1pt;
+}
 div.header div.headwrap div.navigation {
     margin-top:4px;
 }
