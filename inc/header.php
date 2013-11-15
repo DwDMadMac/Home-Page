@@ -67,7 +67,24 @@
             <div class="clear"></div>
             <div class="navi">
                 <ul class="navi-ul">
-                    <li class="navi-li"><a href="http://forums.downwithdestruction.net/">News</a></li>
+                    <li class="navi-li">
+                        <a href="http://forums.downwithdestruction.net/">News</a>
+                    </li>
+                    <li class="navi-li">
+                        <a href="http://forums.downwithdestruction.net/board/dwd-network/">Minecraft</a>
+                    </li>
+                    <li class="navi-li">
+                        <a href="http://forums.downwithdestruction.net/board/gta-online/">GTA Online</a>
+                    </li>
+                    <li class="navi-li">
+                        <a href="http://forums.downwithdestruction.net/members">Members</a>
+                    </li>
+                    <li class="navi-li">
+                        <a href="http://forums.downwithdestruction.net/doc/terms-of-service/">Terms of Service</a>
+                    </li>
+                    <li class="navi-li">
+                        <a href="http://forums.downwithdestruction.net/help">help</a>
+                    </li>
                 </ul>
             </div>
             <div class="headwrap">
