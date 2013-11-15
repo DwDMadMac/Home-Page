@@ -1,13 +1,13 @@
 <?php
  
-  $superIPs = array('69.256.187.113','82.31.224.156','68.81.212.81','24.208.40.91','localhost'); //Dunno IP Dunno IP Macs IP Lords IP
+  /*$superIPs = array('69.256.187.113','82.31.224.156','68.81.212.81','24.208.40.91','localhost'); //Dunno IP Dunno IP Macs IP Lords IP
   $forum_url = 'http://downwithdestruction.net';
   if(!in_array($_SERVER['REMOTE_ADDR'],$superIPs)) {
       header('Location: '.$forum_url);
       exit();
-  }
+  }*/
 
-  include 'php/api.php';
+  //include 'php/api.php';
 
   //$visitor = XenForo_Visitor::getInstance();
   //$uID = $visitor->getUserID();
@@ -64,6 +64,12 @@
     </head>
     <body>
         <div class="header">
+            <div class="clear"></div>
+            <div class="navi">
+                <ul class="navi-ul">
+                    <li class="navi-li"><a href="http://forums.downwithdestruction.net/">News</a></li>
+                </ul>
+            </div>
             <div class="headwrap">
                 <img src="img/logo.png" class="logo" />
                 <div class="userbox">
