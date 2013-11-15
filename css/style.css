@@ -76,7 +76,7 @@ div.header div.headwrap div.navigation {
     margin-top:4px;
 }
 div.header div.headwrap div.navigation ul, div.header div.navi ul.navi-ul  {
-    margin: 0;
+    /*margin: 0;*/
     padding: 0;
     list-style: none;
 }
