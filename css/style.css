@@ -75,15 +75,15 @@ div.header div.headwrap div.userbox strong {
 div.header div.headwrap div.navigation {
     margin-top:4px;
 }
-div.header div.headwrap div.navigation ul {
+div.header div.headwrap div.navigation ul, div.header div.navi ul.navi-ul  {
     margin: 0;
     padding: 0;
     list-style: none;
 }
-div.header div.headwrap div.navigation ul li {
+div.header div.headwrap div.navigation ul li, div.header div.navi ul.navi-ul {
     float: left;
 }
-div.header div.headwrap div.navigation ul li a {
+div.header div.headwrap div.navigation ul li a, div.header div.navi ul.navi-ul li.navi-li a {
     padding: 6px 14px;
     color: #fafafa;
     border-radius: 4px;
@@ -99,7 +99,9 @@ div.header div.headwrap div.navigation ul li a {
     background: rgba(65,0,0,0.2);
 }
 div.header div.headwrap div.navigation ul li a.active,
-div.header div.headwrap div.navigation ul li a:hover {
+div.header div.headwrap div.navigation ul li a:hover,
+div.header div.navi ul.navi-ul li.navi-li a:active,
+div.header div.navi ul.navi-ul li.navi-li a:hover {
     background: #5a0000;
     opacity: 1;
     text-decoration: none !important;
