@@ -83,7 +83,7 @@ div.header div.headwrap div.navigation ul, div.header div.navi ul.navi-ul  {
     padding: 0;
     list-style: none;
 }
-div.header div.headwrap div.navigation ul li, div.header div.navi ul.navi-ul {
+div.header div.headwrap div.navigation ul li, div.header div.navi ul.navi-ul li.navi-li {
     float: left;
 }
 div.header div.headwrap div.navigation ul li a, div.header div.navi ul.navi-ul li.navi-li a {
