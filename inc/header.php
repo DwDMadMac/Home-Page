@@ -1,8 +1,9 @@
 <?php
  
-  $superIPs = array('69.256.187.113','82.31.224.156','68.81.212.81','24.208.40.91'); //Dunno IP Dunno IP Macs IP Lords IP
+  $superIPs = array('69.256.187.113','82.31.224.156','68.81.212.81','24.208.40.91','localhost'); //Dunno IP Dunno IP Macs IP Lords IP
+  $forum_url = 'http://downwithdestruction.net';
   if(!in_array($_SERVER['REMOTE_ADDR'],$superIPs)) {
-      header('Location: http://forums.downwithdestruction.net/home');
+      header('Location: '.$forum_url);
       exit();
   }
 
