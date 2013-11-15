@@ -91,17 +91,6 @@
                 <img src="img/logo.png" class="logo" />
                 <div class="userbox">
                 </div>
-                <div class="clear"></div>
-                    <div class="navigation">
-                        <ul>
-                            <li><a href="http://forums.downwithdestruction.net/">News</a></li>
-                            <li><a href="http://forums.downwithdestruction.net/members">Members</a></li>
-                            <li><a href="http://forums.downwithdestruction.net/gallery">gallery</a></li>
-                            <li><a href="http://forums.downwithdestruction.net/resources">resources</a></li>
-                            <li><a href="http://forums.downwithdestruction.net/applications">applications</a></li>
-                            <li><a href="http://forums.downwithdestruction.net/help">help</a></li>
-                        </ul>
-                    </div>
             </div>
         </div>
         <div class="wrap">
