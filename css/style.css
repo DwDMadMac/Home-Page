@@ -87,6 +87,7 @@ div.header div.headwrap div.navigation ul, div.header div.navi ul.navi-ul  {
 }
 div.header div.headwrap div.navigation ul li, div.header div.navi ul.navi-ul li.navi-li {
     display: inline-block;
+    padding-top: 6px;
 }
 div.header div.headwrap div.navigation ul li a, div.header div.navi ul.navi-ul li.navi-li a {
     padding: 6px 14px;
@@ -100,8 +101,9 @@ div.header div.headwrap div.navigation ul li a, div.header div.navi ul.navi-ul l
     -moz-transition: 300ms linear 0s;
     -o-transition: 300ms linear 0s;
     transition: 300ms linear 0s;
-    margin-right: 8px;
+    margin-right: 40px;
     background: rgba(65,0,0,0.2);
+    font-size: 25px;
 }
 div.header div.headwrap div.navigation ul li a.active,
 div.header div.headwrap div.navigation ul li a:hover,
