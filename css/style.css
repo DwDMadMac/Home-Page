@@ -122,7 +122,7 @@ div.header div.navi ul.navi-ul li.navi-li a:hover {
 }
 div.wrap {
     display: block;
-    background: #ededed url('../img/bg.png');
+    background: #ededed url('http://static.downwithdestruction.net/img/forums/backgrounds/carbon_fibre.png');
     padding: 20px 0;
     border-bottom: 2px solid #141414;
     min-height: 400px;
