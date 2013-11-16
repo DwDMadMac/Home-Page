@@ -182,11 +182,13 @@ img.gtaBackgroundBlock {
     background: transparent url(http://static.downwithdestruction.net/img/GTA-Online.jpg) 0 -70px no-repeat;
     background-size: cover;
     opacity: .7;
+    border-radius: 50%;
 }
 img.minecraftBackgroundBlock {
     background: transparent url(http://static.downwithdestruction.net/img/minecraft_background.png) 0 -60px no-repeat;
     background-size: cover;
     opacity: .7;
+    border-radius: 50%;
 }
 div.communities ul li h1 {
     margin: 0px;
