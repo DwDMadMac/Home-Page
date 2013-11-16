@@ -7,11 +7,11 @@
                 <ul id="communities">
                     <li id="network" class="noAnimate">
                         <h1>DwD Network</h1>
-                        <img class="minecraftBackgroundBlock" src="http://static.downwithdestruction.net/img/GTA-Online.jpg">
+                        <img class="minecraftBackgroundBlock" src="http://static.downwithdestruction.net/img/minecraft_background.png">
                     </li>
                     <li id="gta" class="noAnimate">
                         <h1>GTA Online</h1>
-                        <img class="gtaBackgroundBlock" src="http://static.downwithdestruction.net/img/minecraft_background.png">
+                        <img class="gtaBackgroundBlock" src="http://static.downwithdestruction.net/img/GTA-Online.jpg">
                     </li>
                     <!--
                     <li class="full" id="network" class="noAnimate">
