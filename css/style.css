@@ -151,6 +151,7 @@ div.communities ul li {
     transition: 300ms linear 0s;
     opacity: .5;
     cursor: pointer;
+    margin-right: 5px;
 }
 div.communities ul li.full {
     width:100%;
