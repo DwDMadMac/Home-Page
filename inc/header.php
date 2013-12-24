@@ -63,9 +63,9 @@
         <?php } ?>
         <script type="text/javascript">
             var image1 = new Image();
-            image1.src = "/img/buycraft/background.png";
+            image1.src = "img/buycraft/background.png";
             var image2 = new Image();
-            image2.src = "/img/gta_online_background.png";
+            image2.src = "img/gta_online_background.png";
             var image3 = new Image();
             image3.src = "DwDCommunity3.JPEG";
             var image4 = new Image();
