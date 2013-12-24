@@ -1,6 +1,7 @@
 <?php
     include 'prepend.php';
     include INCPATH . 'header.php';
+    $index = true;
  ?>
         <div class="pageContainer">
             <div id="wrapper">
