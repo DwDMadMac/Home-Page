@@ -1,0 +1,51 @@
+<div class="footer">
+    <div class="col">
+        <div id="target" class="footer-sponsor">
+            <a id="targetFB" src="">
+                <img src="http://downwithdestruction.net/img/social-facebook-button-blue-icon.png" width="50" height="50">
+            </a>
+            <a id="targetTT" src="">
+                <img src="http://downwithdestruction.net/img/twitter-icon.png" width="50" height="50" style="opacity: 0.25;">
+            </a>
+            <a id="targetGG" src="">
+                <img src="http://downwithdestruction.net/img/googleplus-icon.png" width="50" height="50" style="opacity: 0.25;">
+            </a>
+            <a id="targetSM" src="">
+                <img src="http://downwithdestruction.net/img/Other-steam-light-icon.png" width="50" height="50">
+            </a>
+            <a id="targetYT" src="">
+                <img src="http://downwithdestruction.net/img/social-inside-youtube-icon.png" width="50" height="50" style="opacity: 0.25;">
+            </a>
+            <a id="targetPP" src="">
+                <img src="http://downwithdestruction.net/img/paypal-icon.png" width="50" height="50">
+            </a>
+        </div>
+    </div>
+    <div class="col">
+        <h3>Legal</h3>
+        <ul>
+            <li>Terms Of Use</li>
+            <li>Privacy Policy</li>
+        </ul>
+    </div>
+    <div class="col">
+        <h3>Rules</h3>
+        <ul>
+            <li>Global</li>
+            <li>MindCrack</li>
+            <li>TeamSpeak</li>
+        </ul>
+    </div>
+    <div class="col xtra">
+        <h3>Help &amp; Support</h3>
+        <ul>
+            <li>Staff</li>
+            <li>Tickets</li>
+            <li>Contact Us</li>
+            <li><a href="status.php" class="active">Service Status</a></li>
+        </ul>
+    </div>
+    <div class="clear"></div>
+</div>
+</body>
+</html>
