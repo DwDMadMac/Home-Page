@@ -59,19 +59,16 @@ designed by your fellow community members and Staff. </p>
                 <div class="toolbar"><a class="btn pull-right btn-success" href="http://forums.downwithdestruction.net/board/gta-online/">Visit Community</a></div>
             </div>
             <div class="sidebar">
-<<<<<<< HEAD
                 <h3>Basic Information</h3>
                 <table class="serviceStatus mini">
                     <tr>
                         <th>Crew Leader</th>
                         <td><em>DwD_MadMac</em></td>
-=======
                 <h3>Announcements</h3>
                 <table class="serviceStatus mini">
                     <tr>
                         <th>IP</th>
                         <td><em>Coming Soon...</em></td>
->>>>>>> feec1d476faaf55ce6dd6c150fd08522d0fcd576
                     </tr>
                     <tr>
                         <th>Recent Threads</th>

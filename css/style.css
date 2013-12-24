@@ -194,13 +194,10 @@ img.minecraftBackgroundBlock {
 div.communities ul li h1 {
     margin: 0px;
     position: absolute;
-<<<<<<< HEAD
     bottom: 40px;
     left: 21%;
-=======
     bottom: 5px;
     left: 5px;
->>>>>>> feec1d476faaf55ce6dd6c150fd08522d0fcd576
     color: #ededed;
     padding: 3px 5px;
     background: #000000;
@@ -210,10 +207,7 @@ div.communities ul li h1 {
     -moz-border-radius: 4px;
     -webkit-border-radius: 4px;
     -o-border-radius: 4px;
-<<<<<<< HEAD
     text-align: center;
-=======
->>>>>>> feec1d476faaf55ce6dd6c150fd08522d0fcd576
 }
 div.communities ul li div.status {
     position: absolute;

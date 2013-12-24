@@ -61,7 +61,6 @@
                 }
             </script>
         <?php } ?>
-<<<<<<< HEAD
         <script type="text/javascript">
             var image1 = new Image();
             image1.src = "/img/buycraft/background.png";
@@ -72,8 +71,6 @@
             var image4 = new Image();
             image4.src = "DwDCommunity4.JPEG";
         </script>
-=======
->>>>>>> feec1d476faaf55ce6dd6c150fd08522d0fcd576
     </head>
     <body>
         <div class="header">
@@ -109,9 +106,5 @@
         <div class="wrap">
             <div class="innerWrap communities">
                 <div class="alert alert-info">
-<<<<<<< HEAD
                     <strong>Notice</strong> This Home Page is currently in <em>Beta</em>, it is likely that changes will occur.
-=======
-                    <strong>Notice</strong> This HomePage is currently in <em>Beta</em>, it is likely that changes will occur.
->>>>>>> feec1d476faaf55ce6dd6c150fd08522d0fcd576
                 </div>
