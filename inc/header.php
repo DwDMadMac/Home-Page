@@ -20,7 +20,7 @@
     <head>
         <title>DownWithDestruction</title>
         <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
-        <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <link rel="stylesheet" type="text/css" href="css/style.php" />
         <link href='http://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css' />
         <script type="text/javascript" src="js/jquery.min.js"></script>
         <?php if (isset($pings)) { ?>
@@ -67,9 +67,9 @@
             var image2 = new Image();
             image2.src = "img/gta_online_background.png";
             var image3 = new Image();
-            image3.src = "DwDCommunity3.JPEG";
+            image3.src = "img/buycraft/background.png";
             var image4 = new Image();
-            image4.src = "DwDCommunity4.JPEG";
+            image4.src = "img/gta_online_background.png";
         </script>
     </head>
     <body>
