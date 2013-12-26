@@ -174,9 +174,9 @@ ul.pxs_thumbnails li.selected img{
         border-bottom: 1px solid grey;
         width: 100%;
         padding: 0 50px;
-        background-color: #000000;
-        background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#383838), to(#000000));
-        background: -moz-linear-gradient(top, #383838 0%, #000000 100%);
+        background: rgb(70, 0 ,0);
+        background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgb(136, 0, 0)), to(rgb(70, 0 ,0)));
+        background: -moz-linear-gradient(top, rgb(136, 0, 0) 0%, rgb(70, 0 ,0) 100%);
         margin-top: 0;
 }
 .naviBar-wrapper .naviBar {
