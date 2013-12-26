@@ -180,7 +180,8 @@ ul.pxs_thumbnails li.selected img{
         margin-top: 0;
 }
 .naviButton,
-.naviBar a {
+.naviBar a,
+.footer a {
     color: rgb(255, 166, 166) !important;
 }
 .naviBar-wrapper .naviBar {
