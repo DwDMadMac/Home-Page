@@ -181,7 +181,7 @@ ul.pxs_thumbnails li.selected img{
 }
 .naviButton,
 .naviBar a,
-.footer a {
+.footerCopy a {
     color: rgb(255, 166, 166) !important;
 }
 .naviBar-wrapper .naviBar {
@@ -386,7 +386,7 @@ div.overlayContent div.sidebar {
         -o-transition: none !important;
         transition: none !important;
 }
-.footer {
+.footerCopy {
         background: #191919 url('http://static.downwithdestruction.net/img/bg-footer.png') top left repeat;
 	text-align: center;
 	width: 100%;
