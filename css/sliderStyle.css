@@ -179,6 +179,10 @@ ul.pxs_thumbnails li.selected img{
         background: -moz-linear-gradient(top, rgb(136, 0, 0) 0%, rgb(70, 0 ,0) 100%);
         margin-top: 0;
 }
+.naviButton,
+.naviBar a {
+    color: white !important;
+}
 .naviBar-wrapper .naviBar {
         text-align: center;
         vertical-align: middle;
