@@ -181,7 +181,7 @@ ul.pxs_thumbnails li.selected img{
 }
 .naviButton,
 .naviBar a {
-    color: white !important;
+    color: rgb(255, 166, 166) !important;
 }
 .naviBar-wrapper .naviBar {
         text-align: center;
