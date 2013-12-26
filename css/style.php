@@ -1,11 +1,7 @@
 <?php
     header("Content-type: text/css; charset: UTF-8");
     define('URL', '/img/');
-   
-    $absolute_path = $_SERVER['SCRIPT_FILENAME'];
-    $imgURL = 'Home_Page/img';
-    $img = $_SERVER["DOCUMENT_ROOT"];
-
+    
     $staticURL = "http://static.downwithdestruction.net/";
 ?>
 html,body {

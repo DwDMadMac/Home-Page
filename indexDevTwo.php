@@ -1,28 +1,14 @@
 <?php
+    include 'prepend.php';
+    include INCPATH . 'headerDev.php';
+    $index = true;
  ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html>
-    <head>
-        <title>Parallax Slider with jQuery</title>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-        <meta name="description" content="Parallax Slider with jQuery" />
-        <meta name="keywords" content="parallax, jquery, slider, slideshow, rotation, perspective"/>
-		<link rel="shortcut icon" href="../favicon.ico" type="image/x-icon"/>
-        <link rel="stylesheet" type="text/css" href="css/sliderStyle.css" />
-		<script src="js/cufon-yui.js" type="text/javascript"></script>
-		<script src="js/ChunkFive_400.font.js" type="text/javascript"></script>
-		<script type="text/javascript">
-			Cufon.replace('h1',{ textShadow: '1px 1px #000'});
-			Cufon.replace('h2',{ textShadow: '1px 1px #000'});
-			Cufon.replace('.footer',{ textShadow: '1px 1px #000'});
-			Cufon.replace('.pxs_loading',{ textShadow: '1px 1px #000'});
-		</script>
-    </head>
-    <body>
-		<div class="wrapper">
+		<!--
+                <div class="wrapper">
 			<h1>Parallax Slider Demo</h1>
 			<h2>Create some depth with the parallax effect</h2>
 		</div>
+                -->
 
 		<div id="pxs_container" class="pxs_container">
 			<div class="pxs_bg">
@@ -33,8 +19,8 @@
 			<div class="pxs_loading">Loading images...</div>
 			<div class="pxs_slider_wrapper">
 				<ul class="pxs_slider">
-					<li><img src="images/1.jpg" alt="First Image" /></li>
-					<li><img src="images/2.jpg" alt="Second Image" /></li>
+					<li><img src="<?php echo URL ?>buycraft/background.png" alt="Minecraft" /></li>
+					<li><img src="<?php echo URL ?>gta_online_background.png" alt="Second Image" /></li>
 					<li><img src="images/3.jpg" alt="Third Image" /></li>
 					<li><img src="images/4.jpg" alt="Forth Image" /></li>
 					<li><img src="images/5.jpg" alt="Fifth Image" /></li>
@@ -61,6 +47,7 @@
 			<a href="http://www.flickr.com/photos/tetsumo/" target="_blank">Images by talented Tetsumo</a>
 		</div>
                 -->
+                <?php include INCPATH . 'footer.php' ?>
 
 		<!-- The JavaScript -->
 		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
@@ -326,13 +313,13 @@
 					navigation next and previous buttons will be:
 					windowWidth/2 - imgWidth/2 + some margin (not to touch the image borders)
 					 */
-					var position_nav	= w_w/2 - one_image_w/2 + 3;
+					var position_nav	= w_w/2 - one_image_w/2 + 2;
 					$pxs_next.css('right', position_nav + 'px');
 					$pxs_prev.css('left', position_nav + 'px');
 				}
 				
 				$.fn.parallaxSlider.defaults = {
-					auto			: 0,	//how many seconds to periodically slide the content.
+					auto			: 6000,	//how many seconds to periodically slide the content.
 											//If set to 0 then autoplay is turned off.
 					speed			: 1000,//speed of each slide animation
 					easing			: 'jswing',//easing effect for the slide animation
