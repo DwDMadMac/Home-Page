@@ -395,9 +395,16 @@ div.overlayContent div.sidebar {
 }
 .copy_and_footer_links {
         margin: 0 140px;
+        background: url(http://static.downwithdestruction.net/favicon.ico) no-repeat left top;
+        background-size: 30px;
+        background-position-y: 25px;
 }
 .copy_and_footer_links li {
         list-style: none;
+}
+.copy_and_footer_links ul,
+#footerLinks {
+        display: inline-block;
 }
 #footerLinks {
         list-style: none;
@@ -405,6 +412,12 @@ div.overlayContent div.sidebar {
         padding-right: 15px;
 }
 .footerCopy {
-	text-align: center;
-	padding: 20px 0px;
+	padding: 0 0 20px 40px;
+}
+.siteVersion {
+        float: right;
+        font-size: 10px;
+        text-transform: uppercase;
+        font-style: italic;
+        font-weight: bold;
 }
