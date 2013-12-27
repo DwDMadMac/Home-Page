@@ -386,11 +386,25 @@ div.overlayContent div.sidebar {
         -o-transition: none !important;
         transition: none !important;
 }
-.footerCopy {
+#footerWrapper {
         background: #191919 url('http://static.downwithdestruction.net/img/bg-footer.png') top left repeat;
-	text-align: center;
 	width: 100%;
 	padding: 20px 0px;
 	clear: both;
 	margin-top: 100px;
+}
+.copy_and_footer_links {
+        margin: 0 140px;
+}
+.copy_and_footer_links li {
+        list-style: none;
+}
+#footerLinks {
+        list-style: none;
+        display: inline-block;
+        padding-right: 15px;
+}
+.footerCopy {
+	text-align: center;
+	padding: 20px 0px;
 }
