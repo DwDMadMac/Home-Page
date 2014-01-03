@@ -20,24 +20,24 @@
     </head>
     <body>
         <div class="naviBar-wrapper">
-            <ul class="naviBar">
-                <li class="naviButton">
-                    Home
+            <ul id="communities" class="naviBar">
+                <li id="home" class="naviButton">
+                    <a href="" alt="Home">Home</a>
                 </li>
-                <li class="naviButton">
+                <li id="news" class="naviButton">
                     <a href="http://forums.downwithdestruction.net/" alt="Announcements" >Announcements</a>
                 </li>
-                <li class="naviButton">
-                    <a href="http://forums.downwithdestruction.net/board/dwd-network/" alt="Minecraft" >Minecraft</a>
+                <li id="network"  class="naviButton">
+                    Minecraft
                 </li>
-                <li class="naviButton">
-                    <a href="http://forums.downwithdestruction.net/board/gta-online/" alt="Minecraft" >GTA Online</a>
+                <li id="gta" class="naviButton">
+                    GTA Online
                 </li>
-                <li class="naviButton">
-                    <a href="http://forums.downwithdestruction.net/board/league-of-legends/" alt="Minecraft" >League of Legends</a>
+                <li id="lol" class="naviButton">
+                    League of Legends
                 </li>
-                <li class="naviButton">
-                    <a href="http://forums.downwithdestruction.net/board/call-of-duty/" alt="Call Of Duty">Call Of Duty</a>
+                <li id="cod" class="naviButton">
+                    Call Of Duty
                 </li>
             </ul>
         <div class="wrapper">
@@ -192,7 +192,7 @@
         <!-- The JavaScript -->
         <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
         <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
-        <!-- Popup Overlay -->
+        <!-- Image Icon Popup Overlay, Ping Status, Navi Links Overlay -->
         <script type="text/javascript">
             $(document).ready(function() {
                 $('.noAnimate').removeClass('noAnimate');

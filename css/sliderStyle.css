@@ -421,3 +421,11 @@ div.overlayContent div.sidebar {
         font-style: italic;
         font-weight: bold;
 }
+#gta,
+#cod,
+#lol,
+#network,
+#news,
+#home {
+        cursor: pointer;
+}
